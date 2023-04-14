@@ -1,2 +1,1 @@
-gunicorn [OPTIONS] [WSGI_APP]
-web:gunicorn main:app
+gunicorn --workers=2 main:app
