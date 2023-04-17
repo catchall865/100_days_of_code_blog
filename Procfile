@@ -1,1 +1,1 @@
-gunicorn --workers=2 main:app
+gunicorn 'main:app'
