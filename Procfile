@@ -1,2 +1,1 @@
-gunicorn [OPTIONS] [WSGI_APP]
-web:gunicorn main:app
+gunicorn 'main:app'
